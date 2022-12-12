@@ -14,5 +14,6 @@ namespace UpSchool_CQRS_Projects.DAL.Context
             optionsBuilder.UseSqlServer("server=DESKTOP-07T8MF2\\MSSQLSERVER01;initial catalog=UpSchoolCQRS;integrated security=true");
         }
         public DbSet<Product> Products { get; set; }
+        public DbSet<Student> Students { get; set; }
     }
 }
